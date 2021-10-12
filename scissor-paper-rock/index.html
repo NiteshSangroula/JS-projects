@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Scissor Paper Rock</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+    </body>
+    <h1 class = "game-name">Scissor Paper Rock</h1>
+    <button class = "again"><h2>Again</h2></button>
+
+    <button class = "instruction">Instructions</button>
+
+    <div class = "instructions hidden">
+        <h3>Following are the insturctions for playing the game:</h3>
+        <ul>
+            <li>The score board in the top right corner stores your's winnings and computer's.</li>
+            <li>The again button restart's the game.</li>
+            <li>You need to select either scissor, paper or rock.</li>
+            <li>Press <kbd>Esc</kbd> to exit this instruction.</li>
+        </ul>
+    </div>
+
+    <div class = "score-board">
+        <table>
+            <tr>
+                <th colspan="2">Score Board</th>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>You</td>
+            </tr>
+            <tr>
+                <td class = "c-score">0</td>
+                <td class = "u-score">0</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class = "board">
+        <div class = "computer players">
+            <h2>Computer</h2>
+
+            <button class = "scissor c-options options" >Scissor</button>
+            <button class = "paper c-options options" >Paper</button>
+            <button class = "rock c-options options" >Rock</button>
+        </div>
+
+        <div class = "message-box">
+            <p class = "message">Start....</p>
+        </div>
+
+        <div class = "you players">
+            <button class = "u-options options" value = "scissor">Scissor</button>
+            <button class = "u-options options" value = "paper">Paper</button>
+            <button class = "u-options options" value = "rock">Rock</button>
+
+            <h2>You</h2>
+        </div>
+
+    </div>
+    <script charset="utf-8" src = "script.js">
+    </script>
+</html>

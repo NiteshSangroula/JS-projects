@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    color: white;
+}
+
+.intro {
+    background-color: rgb(23,61,14);
+    padding: 60px;
+}
+
+.heading {
+    font-size: 50px;
+    padding: 0 0 20px;
+    text-shadow: 3px 3px 5px white;
+}
+
+.img-eagle {
+    border-radius: 40%;
+}
+
+.about-eagle {
+    padding: 18px 300px 0;
+    font-size: 20px;
+}
+
+.item {
+    display: inline-block;
+    height: 240px;
+    width: 240px;
+    margin: 120px 90px;
+    opacity: 0.8;
+}
+
+.item:hover {
+    opacity: 1;
+}
+
+.img {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+
+.register {
+    background-color: rgb(23,61,14);
+    padding: 90px 0;
+}
+
+.sign {
+    padding: 16px 27px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.sign:hover {
+    background-color: green;
+}
+
+.become-eagle {
+    margin: 40px;
+    font-size: 26px;
+}
+
+.external-links {
+    padding: 70px 0;
+}
+
+.social-link {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.external-links p {
+    margin: 9px 0 0;
+    color: black;
+    font-size: 18px;
+}

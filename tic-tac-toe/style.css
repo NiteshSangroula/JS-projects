@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+.matchOver {
+    background-color: green;
+}
+
+.win {
+    background-color: black;
+    color: white;
+}
+
+.tic-tac-toe {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.place {
+    background-color: #635858;
+    position: relative;
+}
+
+.place:hover {
+    background-color: lightgreen;
+}
+
+.element {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.first {
+    border-radius: 50%;
+}
+
+.second {
+    border-radius: 50% 0%;
+}

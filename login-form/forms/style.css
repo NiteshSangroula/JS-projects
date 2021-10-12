@@ -1,0 +1,81 @@
+/* Universal Styling */
+* {
+    font-family: sans-serif;    
+}
+body {
+    padding: 0;
+    background-color: #1BB596;
+}
+
+.sign-in-form {
+    width: 250px;
+    height: 35px;
+}
+
+input:focus {
+    outline-color: #1BB596;
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+/* form containers */
+.container {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    top: 50px;
+    left: 35%;
+    border-radius: 10px;
+}
+
+.container-1 {
+    top: 150px;
+    left: 40%;
+    border-radius: 10px;
+}
+
+.sign-up {
+    padding: 50px;
+}
+
+.sign-in {
+    padding: 20px;
+}
+
+
+.item {
+    margin: 20px;
+}
+
+.button {
+    padding: 10px 30px;
+    margin: 0 5px 0;
+    background-color: #0676E8;
+    border: none;
+    border-radius: 5%;
+    color: white;
+}
+
+.btn-in {
+    padding: 10px 90px;
+}
+
+.button:hover {
+    background-color: rgb(6,100,250);
+}
+
+.signIn {
+    text-align: center;
+}
+
+/* Styling errors */
+
+.error {
+    color: red;
+}
+.hidden {
+    display: none;                                                                                                                                            
+}
+

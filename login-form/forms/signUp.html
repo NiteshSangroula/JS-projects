@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Sign Up</title>
+        <link rel="icon" href="/img/icons/favicon.ico" type="text/css" media="screen" title="no title" charset="utf-8">
+
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "sign-up">
+                <h2>Sign Up</h2>
+                <form action="signUp_submit" method="get" accept-charset="utf-8">
+
+                    <div class = "item">
+                        <label for = "fName">First Name</label>
+                        <br>
+                        <input class = "input--0 fName"  type="text" id = "fName"/>
+                        <br>
+                        <small class = "error error--0 fName-error hidden">Errors!</small>
+                    </div>
+
+                    <div class = "item">
+                        <label for = "lName">Last Name</label>
+                        <br>
+                        <input class = "input--1" type="text" id = "lName"/>
+                        <br>
+                        <small class = "error error--1 lName-error hidden">Errors!</small>
+                    </div>
+
+                    <div class = "item">
+                        <label for = "email">Email</label>
+                        <br>
+                        <input class = "input--2" type="email" id = "email"/>
+                        <br>
+                        <small class = "error error--2 email-error hidden">Errors!</small>
+                    </div>
+
+                    <div class = "item">
+                        <label for = "phone">Phone</label>
+                        <br>
+                        <input class = "input--3" type="tel" id = "phone"/>
+                        <br>
+                        <small class = "error error--3 phone-num-error hidden">Errors!</small>
+                    </div>
+
+                    <div class = "item">
+                        <label>Gender</label>
+                        <br>
+                        <input class = "input--4" type="radio" name="genders" id="male"/>
+                        <label for="male">male</label>
+                        <br>
+                        <input class = "input--5" type="radio" name="genders" id="female"/>
+                        <label for="female">female</label>
+                        <br>
+                        <input class = "input--6" type="radio" name="genders" id="others"/>
+                        <label for="others">others</label>
+                        <br>
+                        <small class = "error error--4 gender-error hidden">Errors!</small>
+                    </div>
+
+                    <div class = "item">
+                        <input class = "input--7 terms" type="checkbox" id="terms&condition"/>
+                        <label for = "terms&condition">I accept with terms and condition</label>
+                        <br>
+                        <small class = "error error--7 terms-error hidden">Errors!</small>
+                    </div>
+
+                    <div class = "item">
+                        <label for = "username">username</label>
+                        <br>
+                        <input class = "input--8" type="text" id="username"/>
+                        <br>
+                        <small class = "error error--8 username-error hidden">Errors!</small>
+
+                    </div>
+                    <div class = "item">
+                        <label for = "password">password</label>
+                        <br>
+                        <input class = "input--9" type="password" id="password"/>
+                        <br>
+                        <small class = "error error--9 password-error hidden">Errors!</small>
+                    </div>
+
+                    <div class = "item">
+                        <button class = "button sign-up-btn">sign up</button>
+                        <button class = "button reset">reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script charset="utf-8" src="script.js">
+
+    </script>
+</html>
