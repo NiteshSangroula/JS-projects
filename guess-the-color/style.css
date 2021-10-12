@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+/* Universal styling */
+
+* {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    padding: 0; 
+    margin: 0;
+    overflow: hidden;
+}
+
+/* in side of game */
+.game-area {
+    z-index: 1;
+}
+
+.areas {
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+    position: absolute;
+    width: 1362px;
+    height: 613px;
+}
+
+
+.game-name {
+    font-weight: 700;
+}
+
+.upper-game-area {
+    background-color: green;
+}
+
+.upper-game-area .upper {
+    display: inline-block;
+    padding: 0 150px;
+}
+
+
+/* Board styling */
+.board {
+    background-color: yellow;
+    padding: 22px;
+}
+
+.upper-part, .lower-part {
+    text-align: center;
+}
+
+.upper-part div, .lower-part div {
+    justify-content: center;
+    height: 140px;
+    width: 300px;
+    display: inline-block;
+    background-color: purple;
+    margin: 10px;
+}
+
+
+.result-section {
+    background-color: indigo;
+    text-align: center;
+}
+
+.result-section div {
+    padding: 10px;
+}
+
+button {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+}
