@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+.display-screen {
+    font-size: 3rem;
+    text-align: right;
+    height: 3.4rem;
+    width: 46rem;
+    margin: 1.5rem 0;
+    background-color: black;
+    display: inline-block;
+    color: white;
+}
+
+.output {
+    width: 50rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.input {
+    width: 25rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    margin: 0.5rem;
+    background-color: rgb(255,220,255);
+    border-style: none;
+}
+
+.btn:hover {
+    background-color: rgb(200,200,255);
+}
+
+
