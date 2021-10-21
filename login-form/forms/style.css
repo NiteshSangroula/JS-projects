@@ -70,12 +70,18 @@ h2 {
     text-align: center;
 }
 
+.signUpLink {
+    text-align: center;
+}
+
 /* Styling errors */
 
 .error {
     color: red;
 }
+
 .hidden {
     display: none;                                                                                                                                            
 }
+
 
